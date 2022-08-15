@@ -42,7 +42,7 @@ Menus:
 
 params:
   title: "kaylum.io"
-  description: Welcome to my homepage
+  description: Personal site for Calem Roelofs
   # staticPath: "static" # The path to serve the static files from
   favicon: "/fav.png"
 
@@ -161,7 +161,7 @@ params:
         info:
           enable: false
         content: |
-          - Worked on internal and customer-facing application using C#/.NET
+          - Worked on internal and customer-facing applications using C#/.NET
           - Migrated team to fully CI/CD using Azure DevOps
           - Helped to increase test coverage and improve processes
       - job: "Technical Support Agent"
@@ -186,8 +186,8 @@ params:
           enable: true
           content: "Note: Ripplecom were acquired by Viatel in late 2020 and no longer exist"
         content: |
-          - Supported residentail and business customer's internet and voice connections
-          - Performed troublshooting with customer's where appropriate
+          - Supported residential and business customer's internet and voice connections
+          - Performed troublshooting with customers where appropriate
           - Created several internal systems and integrations using Python
       - job: "Software Development Intern"
         company: "Ripplecom"
@@ -206,7 +206,7 @@ params:
     enable: true
     # index: true
     items:
-      - title: "B.Sc. Contemporary Software Development"
+      - title: "BSc. in Contemporary Software Development"
         school:
           name: "Atlantic Technological University (Formerly Letterykenny IT)"
           url: "https://www.atu.ie/"
@@ -271,7 +271,7 @@ params:
   #Contact
   contact:
     enable: true
-    content: Got a question about programming, jobs or aquaculture?
+    content: Got a question about programming, music or aquaculture?
     email: hello@kaylum.io
     btnName: Send me an email
 
