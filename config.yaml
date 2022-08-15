@@ -1,0 +1,283 @@
+baseURL: "https://kaylum.io"
+languageCode: "en-us"
+title: "kaylum.io"
+theme: hugo-profile
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+Menus:
+  #main:
+  # - identifier: blog
+  #   name: Blog
+  #   title: Blog posts
+  #   url: /blogs
+  #   weight: 1
+
+  # - identifier: gallery
+  #   name: Gallery
+  #   title: Blog posts
+  #   url: /gallery
+  #   weight: 2
+
+  #Dropdown menu
+  # - identifier: dropdown
+  #   title: Example dropdown menu
+  #   name: Dropdown
+  #   weight: 3
+  # - identifier: dropdown1
+  #   title: example dropdown 1
+  #   name: example 1
+  #   url: /#
+  #   parent: dropdown
+  #   weight: 1
+  # - identifier: dropdown2
+  #   title: example dropdown 2
+  #   name: example 2
+  #   url: /#
+  #   parent: dropdown
+  #   weight: 2
+
+params:
+  title: "kaylum.io"
+  description: Welcome to my homepage
+  # staticPath: "static" # The path to serve the static files from
+  favicon: "/fav.png"
+
+  # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
+  # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
+  # Note the lack of "" in true, it should be of boolean type.
+  useBootstrapCDN: false
+
+  theme:
+    disableThemeToggle: false
+    # defaultTheme: "light" # dark
+
+  # font:
+  #   fontSize: 1.5rem # default: 1rem
+  #   fontWeight: 500 # default: 400
+  #   lineHeight: 1 # default: 1.5
+  #   textAlign: right # default: left
+
+  # color preference
+  # color:
+  #   textColor:
+  #   secondaryTextColor:
+  #   backgroundColor:
+  #   secondaryBackgroundColor:
+  #   primaryColor:
+  #   secondaryColor:
+
+  #   darkmode:
+  #     textColor:
+  #     secondaryTextColor:
+  #     backgroundColor:
+  #     secondaryBackgroundColor:
+  #     primaryColor:
+  #     secondaryColor:
+
+  # If you want to customize the menu, you can change it here
+  # navbar:
+  #   align: mx-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+  #   brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+  #   brandName: "Profile" # Brand name for the brand | default is the title variable
+
+  #   menus:
+  #     disableAbout: true
+  #     disableExperience: true
+  #     disableEducation: true
+  #     disableProjects: true
+  #     disableAchievements: true
+  #     disableContact: true
+
+  # Hero
+  hero:
+    enable: true
+    intro: "Hi, my name is"
+    title: "Calem Roelofs."
+    subtitle: "I like solving problems."
+    content: "I write SaaS backends using Java, Python and Node.js so I can buy plants for my fish."
+    image: "/images/fish.png"
+    button:
+      enable: false
+      name: "Resume"
+      url: "/Resume-Calem-Roelofs.pdf"
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/CalemRoelofs
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/calemroelofs/
+        - icon: fas fa-envelope
+          url: mailto:hello@kaylum.io
+
+  # About
+  about:
+    enable: true
+    title: "About Me"
+    image: "/images/skrimp.png"
+    content: |-
+      I'm a software developer with a passion for all facets of backend web development.   
+      Whether I'm designing scalabale micro-services, optimising CI/CD pipelines, or refining OpenAPI definitions, I'm at my happiest when I'm tinkering.  
+      I'm currently working as a backend developer at [SmartBear,](https://smartbear.com/) working closely with OpenAPI on [SwaggerHub](https://swagger.io/tools/swaggerhub/).
+    skills:
+      enable: true
+      title: "Here's some of the technologies I'm working with at the moment:"
+      items:
+        - "Java"
+        - "Python"
+        - "JavaScript"
+        - "MongoDB"
+        - "ElasticSearch"
+        - "PostgreSQL"
+        - "OpenAPI"
+        - "AsyncAPI"
+
+  # Experience
+  experience:
+    enable: true
+    items:
+      - job: "Software Developer"
+        company: "SmartBear"
+        companyUrl: "https://smartbear.com/"
+        date: "Dec 2021 - Present"
+        featuredLink:
+          enable: false
+        info:
+          enable: false
+        content: |
+          - Designing and maintaining scalable backend microservices in Java and Node.js
+          - Automating processes with Python scripts and GitHub Actions workflows
+          - Optimizing data persistence and retrieval in Mongo, ElasticSearch and PostgreSQL
+          - Working with the OSS community and members of the [OpenAPI Initiative](https://www.openapis.org/about)
+      - job: "Software Developer"
+        company: "Viatel"
+        companyUrl: "https://www.viatel.com/"
+        date: "Aug 2021 - Dec 2021"
+        featuredLink:
+          enable: false
+        info:
+          enable: false
+        content: |
+          - Worked on internal and customer-facing application using C#/.NET
+          - Migrated team to fully CI/CD using Azure DevOps
+          - Helped to increase test coverage and improve processes
+      - job: "Technical Support Agent"
+        company: "Viatel"
+        companyUrl: "https://www.viatel.com/"
+        date: "Mar 2021 - Aug 2021"
+        info:
+          enable: false
+        featuredLink:
+          enable: false
+        content: |
+          - Supported SME customer's internet, voice and cloud infrastructure
+          - Diagnosed issues by working with customers over the phone
+          - Automated some repetitive processes using Python
+      - job: "Technical Support Agent"
+        company: "Ripplecom"
+        companyUrl: "https://www.viatel.com/ripplecom"
+        date: "Jan 2020 - Mar 2021"
+        featuredLink:
+          enable: false
+        info:
+          enable: true
+          content: "Note: Ripplecom were acquired by Viatel in late 2020 and no longer exist"
+        content: |
+          - Supported residentail and business customer's internet and voice connections
+          - Performed troublshooting with customer's where appropriate
+          - Created several internal systems and integrations using Python
+      - job: "Software Development Intern"
+        company: "Ripplecom"
+        companyUrl: "https://www.viatel.com/ripplecom"
+        date: "Mar 2018 - Sep 2018"
+        info:
+          enable: true
+          content: "Note: Ripplecom were acquired by Viatel in late 2020 and no longer exist"
+        content: |
+          - Designed, implemented and deployed a voice billing engine using Python and Flask
+          - Worked closely with internal stakeholders to refine requirements and ensure satisfaction
+          - Provided training and created documentation for customers and staff to use the new system
+
+  # Education
+  education:
+    enable: true
+    # index: true
+    items:
+      - title: "B.Sc. Contemporary Software Development"
+        school:
+          name: "Atlantic Technological University (Formerly Letterykenny IT)"
+          url: "https://www.atu.ie/"
+        date: "2021 - 2021"
+        GPA: "First Class Honours"
+
+      - title: "NFQ Level 7 in Computer Networks & Systems Management"
+        school:
+          name: "Technological University of the Shannon (Formerly Limerick IT)"
+          url: "https://tus.ie/"
+        date: "2015 - 2018"
+        GPA: "Merit"
+
+  # Achievements
+  achievements:
+    enable: false
+
+  # projects
+  projects:
+    enable: true
+    items:
+      - title: Just Eat Roulette
+        content: A self-hostable API for getting a random restaurant near your location from Just Eat
+        image: /images/gh-avatar-1.png
+        featured:
+          name: Demo
+          link: https://just-eat-roulette-api.fly.dev
+        badges:
+          - "Python"
+          - "FastAPI"
+          - "OpenAPI"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/CalemRoelofs/just-eat-roulette
+
+      - title: Quotemaker
+        content: A program to generate non-sensical inspirational quote images with markov chains.
+        image: /images/gh-avatar-2.png
+        badges:
+          - "Python"
+          - "Markov Chains"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/CalemRoelofs/Quotemaker
+
+      - title: Hacker News PWA
+        content: |
+          A simple Hacker News PWA client built with React + Tailwind CSS. 
+          Uses a custom backend that generates random, non-sensical titles using markov chains.
+        image: /images/gh-avatar-3.png
+        featured:
+          name: Demo
+          link: https://hnrtwpwa.fly.dev/
+        badges:
+          - "React"
+          - "JavaScript"
+          - "Tailwind"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/CalemRoelofs/hnrtwpwa
+
+  #Contact
+  contact:
+    enable: true
+    content: Got a question about programming, jobs or aquaculture?
+    email: hello@kaylum.io
+    btnName: Send me an email
+
+  footer:
+    recentPosts: false
+    socialNetworks:
+      github: https://github.com/CalemRoelofs
+      linkedin: https://linkedin.com/in/calemroelofs
+      email: hello@kaylum.io
