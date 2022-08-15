@@ -1,4 +1,4 @@
-baseURL: "https://kaylum.io"
+baseURL: "https://kaylum.github.io"
 languageCode: "en-us"
 title: "kaylum.io"
 theme: hugo-profile
