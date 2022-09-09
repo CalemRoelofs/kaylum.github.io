@@ -228,9 +228,21 @@ params:
   projects:
     enable: true
     items:
-      - title: Just Eat Roulette
-        content: A self-hostable API for getting a random restaurant near your location from Just Eat
+      - title: Swagger IVR
+        content: |
+          Convert your OpenAPI definition into a Twilio IVR menu!
         image: /images/gh-avatar-1.png
+        badges:
+          - "TypeScript"
+          - "OpenAPI"
+          - "Twilio"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/CalemRoelofs/swagger-ivr
+
+      - title: Just Eat Roulette
+        content: A self-hostable API for getting a random restaurant near your location from Just Eat.
+        image: /images/gh-avatar-2.png
         featured:
           name: Demo
           link: https://just-eat-roulette-api.fly.dev
@@ -244,29 +256,13 @@ params:
 
       - title: Quotemaker
         content: A program to generate non-sensical inspirational quote images with markov chains.
-        image: /images/gh-avatar-2.png
+        image: /images/gh-avatar-3.png
         badges:
           - "Python"
           - "Markov Chains"
         links:
           - icon: fab fa-github
             url: https://github.com/CalemRoelofs/Quotemaker
-
-      - title: Hacker News PWA
-        content: |
-          A simple Hacker News PWA client built with React + Tailwind CSS. 
-          Uses a custom backend that generates random, non-sensical titles using markov chains.
-        image: /images/gh-avatar-3.png
-        featured:
-          name: Demo
-          link: https://hnrtwpwa.fly.dev/
-        badges:
-          - "React"
-          - "JavaScript"
-          - "Tailwind"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/CalemRoelofs/hnrtwpwa
 
   #Contact
   contact:
