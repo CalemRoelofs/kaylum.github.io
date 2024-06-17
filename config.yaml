@@ -98,8 +98,8 @@ params:
     intro: "Hi, my name is"
     title: "Calem Roelofs."
     subtitle: "I like solving problems."
-    content: "I write SaaS backends using Java, Python and Node.js so I can buy plants for my fish."
-    image: "/images/fish.png"
+    content: "I write full-stack web applications using Golang, Python, React.js and React Native so I can buy toys for my cats."
+    image: "/images/cat.jpg"
     button:
       enable: false
       name: "Resume"
@@ -117,42 +117,56 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/skrimp.png"
+    image: "/images/cat2.jpg"
     content: |-
-      I'm a software developer with a passion for all facets of backend web development.   
-      Whether I'm designing scalabale micro-services, optimising CI/CD pipelines, or refining OpenAPI definitions, I'm at my happiest when I'm tinkering.  
-      I'm currently working as a backend developer at [SmartBear,](https://smartbear.com/) working closely with OpenAPI on [SwaggerHub](https://swagger.io/tools/swaggerhub/).
+      I'm a software developer with a passion for all facets of modern web development.   
+      Whether I'm designing scalable microservices, optimizing GraphQL field functions, or centering divs on the frontend, I'm at my happiest when I'm tinkering.  
+      I'm currently working as a full-stack developer at [Samsara](https://samsara.com/), focusing on dispatch routing.  
+      I am a native English speaker and also speak Polish at an A2 level.
     skills:
       enable: true
       title: "Here's some of the technologies I'm working with at the moment:"
       items:
-        - "Java"
+        - "Golang"
+        - "TypeScript"
+        - "React"
         - "Python"
-        - "JavaScript"
-        - "MongoDB"
-        - "ElasticSearch"
-        - "PostgreSQL"
-        - "OpenAPI"
-        - "AsyncAPI"
+        - "MySQL"
+        - "gRPC"
+        - "GraphQL"
+        - "AWS"
 
   # Experience
   experience:
     enable: true
     items:
-      - job: "Software Developer"
-        company: "SmartBear"
-        companyUrl: "https://smartbear.com/"
-        date: "Dec 2021 - Present"
+      - job: "Software Engineer II"
+        company: "Samsara"
+        companyUrl: "https://samsara.com/"
+        date: "May 2024 - Present"
         featuredLink:
           enable: false
         info:
           enable: false
         content: |
-          - Designing and maintaining scalable backend microservices in Java and Node.js
-          - Automating processes with Python scripts and GitHub Actions workflows
-          - Optimizing data persistence and retrieval in Mongo, ElasticSearch and PostgreSQL
-          - Working with the OSS community and members of the [OpenAPI Initiative](https://www.openapis.org/about)
-      - job: "Software Developer"
+          - Writing full-stack features in a microservices environment for both web and mobile clients
+          - Working closely with both product and engineering to design new features and meet customer demands
+          - Profiling and optimizing query performance across federated GraphQL and sharded MySQL infrastructure 
+          - Performing data analysis with Python and Databricks to drive business decisions
+      - job: "Software Engineer"
+        company: "SmartBear"
+        companyUrl: "https://smartbear.com/"
+        date: "Dec 2021 - Apr 2024"
+        featuredLink:
+          enable: false
+        info:
+          enable: false
+        content: |
+          - Wrote, reviewed, and maintained code for Java and Node.js microservices
+          - Introduced tracing and observability with DataDog APM to preemptively catch performance issues and outages
+          - Contributed to numerous open-source projects under the [Swagger](https://github.com/swagger-api) brand, such as [Swagger Parser](https://github.com/swagger-api/swagger-parser) and [ApiDOM](https://github.com/swagger-api/apidom)
+          - Led a data engineering project for gathering and aggregating metrics for SmartBear's OSS products with Dagster and Apache Superset
+      - job: "Software Engineer"
         company: "Viatel"
         companyUrl: "https://www.viatel.com/"
         date: "Aug 2021 - Dec 2021"
@@ -228,31 +242,29 @@ params:
   projects:
     enable: true
     items:
-      - title: Swagger IVR
+      - title: Czas
         content: |
-          Convert your OpenAPI definition into a Twilio IVR menu!
+          A Rust library built on top of chrono for converting timestamps into localized text
         image: /images/gh-avatar-1.png
         badges:
-          - "TypeScript"
-          - "OpenAPI"
-          - "Twilio"
+          - "Rust"
         links:
           - icon: fab fa-github
-            url: https://github.com/CalemRoelofs/swagger-ivr
+            url: https://github.com/CalemRoelofs/czas
 
-      - title: Just Eat Roulette
-        content: A self-hostable API for getting a random restaurant near your location from Just Eat.
+      - title: Mieszkania we Wrocławiu
+        content: An Jupyter notebook exploring the apartment rental market in Wrocław
         image: /images/gh-avatar-2.png
         featured:
-          name: Demo
-          link: https://just-eat-roulette-api.fly.dev
+          name: Notebook
+          link: https://github.com/CalemRoelofs/mieszkania-wroclaw/blob/main/mieszkania.ipynb
         badges:
           - "Python"
-          - "FastAPI"
-          - "OpenAPI"
+          - "Pandas"
+          - "Numpy"
         links:
           - icon: fab fa-github
-            url: https://github.com/CalemRoelofs/just-eat-roulette
+            url: https://github.com/CalemRoelofs/mieszkania-wroclaw
 
       - title: Quotemaker
         content: A program to generate non-sensical inspirational quote images with markov chains.
@@ -267,7 +279,7 @@ params:
   #Contact
   contact:
     enable: true
-    content: Got a question about programming, music or aquaculture?
+    content: Got a question about programming, music or cats?
     email: hello@kaylum.io
     btnName: Send me an email
 
