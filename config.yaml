@@ -122,7 +122,8 @@ params:
       I'm a software developer with a passion for all facets of modern web development.   
       Whether I'm designing scalable microservices, optimizing GraphQL field functions, or centering divs on the frontend, I'm at my happiest when I'm tinkering.  
       I'm currently working as a full-stack developer at [Samsara](https://samsara.com/), focusing on dispatch routing.  
-      I am a native English speaker and also speak Polish at an A2 level.
+      I am a native English speaker and also speak Polish at an A2 level.  
+      <br>
     skills:
       enable: true
       title: "Here's some of the technologies I'm working with at the moment:"
